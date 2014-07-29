@@ -5,7 +5,7 @@ p {
 	line-height:10px;
 }
 .box {
-	background: url("metal-bg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: #ccc;
     border-radius: 10px;
     box-shadow: 3px 4px 5px black;
     height: 300px;
