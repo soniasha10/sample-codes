@@ -1,0 +1,40 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="calc.css" />
+	<script type="text/javascript" src="calc.js"> </script>
+</head>
+	<body>
+		<div class="box">
+			<div class="display"><input id="displayVal" type="text" readonly size="18" id="d" value="0"></div>
+			<div class="keys">
+				<p>
+					<input type="button" class="button orange" value="C" onclick='clearVal()'>
+				</p>
+				<p>
+					<input type="button" class="button black" value="7" onclick='setDisplayVal("7")'>
+					<input type="button" class="button black" value="8" onclick='setDisplayVal("8")'>
+					<input type="button" class="button black" value="9" onclick='setDisplayVal("9")'>
+					<input type="button" class="button grey" value="*" onclick='setCalcSpace("*")'>
+				</p>
+				<p>
+					<input type="button" class="button black" value="4" onclick='setDisplayVal("4")'>
+					<input type="button" class="button black" value="5" onclick='setDisplayVal("5")'>
+					<input type="button" class="button black" value="6" onclick='setDisplayVal("6")'>
+					<input type="button" class="button grey" value="-" onclick='setCalcSpace("-")'>
+				</p>
+				<p>
+					<input type="button" class="button black" value="1" onclick='setDisplayVal("1")'>
+					<input type="button" class="button black" value="2" onclick='setDisplayVal("2")'>
+					<input type="button" class="button black" value="3" onclick='setDisplayVal("3")'>
+					<input type="button" class="button grey" value="+" onclick='setCalcSpace("+")'>
+				</p>
+				<p>
+					<input type="button" class="button black" value="0" onclick='setDisplayVal("0")'>
+					<input type="button" class="button black" value="." onclick='setDisplayVal(".")'>
+					<input type="button" class="button grey" value="/" onclick='setCalcSpace("/")'>
+					<input type="button" class="button orange" value="=" onclick='setCalcSpace("=")'>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
